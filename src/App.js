@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Auctions from './components/Auctions';
+import Header from './components/Header';
+import { Link, Route, Routes } from 'react-router-dom';
+import Master from './components/modal/Master';
+import Details from './components/modal/Details';
+import StockFile from './components/modal/StockFile';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Header />
+      <Auctions />
+
     </div>
   );
 }

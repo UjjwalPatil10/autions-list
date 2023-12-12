@@ -1,0 +1,22 @@
+.got {
+
+    background-color: red;
+}
+
+
+
+.pagination .page-item:hover a {
+    color: black;
+    background-color: #ddd;
+}
+
+
+
+
+
+.hover-effect:hover {
+    transition: color 0.3s ease !important;
+    color: red !important;
+    border-bottom: 3px solid !important;
+    height: 45px !important;
+}
