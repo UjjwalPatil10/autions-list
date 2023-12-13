@@ -37,7 +37,7 @@ const Master = () => {
                         </div>
                         <div className="row mt-4">
                             <div className="col-md-4">
-                                <input type="text" />
+                                <input type="text" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                             </div>
                             <div className="col-md-4">
                                 <select style={{ width: "228px", height: "37px", border: "1px solid #ccc", borderRadius: "4px" }} >
@@ -49,7 +49,7 @@ const Master = () => {
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="datepicker" className="form-control" />
+                                    <input type="text" id="datepicker" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                         </div>
@@ -74,17 +74,17 @@ const Master = () => {
                         <div className="row mt-4">
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="viewingtime" className="form-control" />
+                                    <input type="text" id="viewingtime" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="startdate" className="form-control" />
+                                    <input type="text" id="startdate" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="starttime" className="form-control" />
+                                    <input type="text" id="starttime" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                         </div>
@@ -110,17 +110,17 @@ const Master = () => {
                         <div className="row mt-4">
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="enddate" className="form-control" />
+                                    <input type="text" id="enddate" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="endtime" className="form-control" />
+                                    <input type="text" id="endtime" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="defaultincrement" className="form-control" />
+                                    <input type="text" id="defaultincrement" className="form-control" style={{ border: "1px solid #ccc", height: "35px", borderRadius: "4px" }} />
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ const Master = () => {
                         <div className="row mt-4">
                             <div className="col-md-4">
                                 <div className="form-group">
-                                    <input type="text" id="aucresdate" className="form-control" style={{ border: "1px solid gray" }} />
+                                    <input type="text" id="aucresdate" className="form-control" style={{ border: "1px solid #ccc" }} />
                                 </div>
                             </div>
                             <div className="col-md-8">

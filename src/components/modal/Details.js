@@ -21,14 +21,14 @@ const Details = () => {
             </div>
             <div className="row mt-3">
                 <div className="col-md-4 d-flex justify-content-center">
-                    <input type="text" />
+                    <input type="text" style={{ border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
                 </div>
                 <div className="col-md-4 d-flex justify-content-center">
-                    <input type="text" />
+                    <input type="text" style={{ border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
 
                 </div>
                 <div className="col-md-4 d-flex justify-content-center">
-                    <input type="text" />
+                    <input type="text" style={{ border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
 
                 </div>
 
@@ -55,18 +55,18 @@ const Details = () => {
             </div>
             <div className="row mt-3">
                 <div className="col-md-3 d-flex justify-content-center">
-                    <input type="text" style={{ width: "160px" }} />
+                    <input type="text" style={{ width: "160px", border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
                 </div>
                 <div className="col-md-3 d-flex justify-content-center">
-                    <input type="text" style={{ width: "160px" }} />
+                    <input type="text" style={{ width: "160px", border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
 
                 </div>
                 <div className="col-md-3 d-flex justify-content-center">
-                    <input type="text" style={{ width: "160px" }} />
+                    <input type="text" style={{ width: "160px", border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
 
                 </div>
                 <div className="col-md-3 d-flex justify-content-center">
-                    <input type="text" style={{ width: "160px" }} />
+                    <input type="text" style={{ width: "160px", border: "1px solid #ccc", borderRadius: "4px", height: "30px" }} />
 
                 </div>
                 <div>

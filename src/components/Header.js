@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="col-sm-8 d-flex justify-content-end align-content-center  " style={{ position: "relative", right: "65px", alignItems: "center" }}>
-                    <Button variant="primary" style={{ height: "39px" }} onClick={handleShow}>
+                    <Button style={{ height: "39px", backgroundColor: "#17a2b8", border: "none" }} onClick={handleShow}>
                         Add Auction
                     </Button>
                     <div style={{ overflowY: "hidden" }}>

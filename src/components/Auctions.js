@@ -177,7 +177,7 @@ const Auctions = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-4 bg-light" style={{ padding: "22px" }}>
+                    <div className="row mt-4 bg-light" style={{ padding: "22px", position: "relative", bottom: "12px" }}>
                         <div className='col-md-6' style={{ position: "relative", left: "7px", color: "#78909C" }}>
                             <p>Copyright © 2023 Esamyak</p>
                         </div>
